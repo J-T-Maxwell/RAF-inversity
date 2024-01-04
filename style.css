@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #000000;
+    background-image: url("https://www.raf.mod.uk/index.cfm/_api/asset/image/?filePath=/raf-beta/assets/Image/3CC4027B-500E-49B0-94C194F5C1A721B1-F-35%20enhanced%20Vigilance%20Activity_Original%20Image_m13815.jpg");
+    background-size: cover;
     margin: 0;
     display: flex;
     justify-content: center;
