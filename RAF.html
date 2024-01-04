@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAF Bases Effectiveness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="topLine">
+      <h1>RAF Bases Effectiveness</h1>
+
+      <table id="keyTable">
+        <thead>
+          <th colspan="3">Key</th>
+        </thead>
+        <tbody>
+          <th class="low-priority">Bad</th>
+          <th class="medium-priority">Good</th>
+          <th class="high-priority">Great</th>
+        </tbody>
+      </table>
+    </div>
+    <table id="baseTable">
+      <thead>
+        <tr>
+          <th>Base</th>
+          <th>Deployment range (km)</th>
+          <th>Security</th>
+          <th>Runway Length (m)</th>
+          <th>Personnel</th>
+          <th>Planes</th>
+          <th>Equipment</th>
+          <th>Fuel</th>
+          <th>Food</th>
+          <th>Overall effectiveness</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Rows will be dynamically added here -->
+      </tbody>
+    </table>
+
+    <button onclick="calculateEffectiveness()">Add base to table</button>
+  </div>
+
+  <script src="effectiveness.js"></script>
+</body>
+</html>
